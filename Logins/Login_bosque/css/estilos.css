@@ -1,0 +1,103 @@
+@import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+
+/*GENERALES*/
+body{
+  background: url(../img/fondo-pantalla-inicio-windows-10.jpg);
+
+}
+
+/*CONTENEDOR*/
+#contenedor{
+  position: absolute;
+  top: 14%;
+  left: 30%;
+  width: 42%;
+  text-align: center;
+  border-radius: 40px;
+  background: rgba(126, 115, 115, 0.6);
+  box-shadow: inset 0px 0px 200px black;
+}
+
+/*Contenedor interno*/
+.contenedor-interno{
+  width: 80%;
+  margin: 0px auto;
+  overflow: auto;
+}
+
+.contenedor-interno input[type="text"], input[type="password"]{
+  width: 80%;
+  padding-top: 15px;
+  background: rgba(255,46,51,0);
+}
+
+/*DISPLAY BLOCK*/
+#contenedor input, a
+{
+  margin: 0px auto;
+  margin-top: 35px;
+}
+
+/*INPUTS*/
+#contenedor input[type="text"],
+input[type="password"]{
+  border-bottom: #3ac93a solid 10px;
+  border-top-style: none ;
+  border-left-style: none;
+  border-right-style: none;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+/*PlACE HOLDER DE LOS INPUTS*/
+::placeholder, input{
+  color: white;
+  font-size: 20px;
+  font-family: "Roboto Light";
+}
+
+/*H1*/
+#contenedor h1{
+  font-family: Righteous;
+  color: white;
+  margin-top: 40px;
+}
+
+/*COLOR DEL A*/
+a{
+  color: white;
+  margin-top: 20px;
+}
+
+/*BOTON INGRESAR*/
+.contenedor-interno input[type="submit"]{
+  display: block;
+  padding: 10px 90px 10px 90px;
+  color: white;
+  font-family: "Roboto Light";
+  font-weight: bold;
+  font-size: 20px;
+  background: rgba(43,255,0,0.3);
+  border: 1px solid #0f5c0f;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: all 300ms;
+}
+
+.contenedor-interno input[type="submit"]:hover{
+  background-color: #0f5c0f;
+  box-shadow: 0px 0px 50px #01ff00;
+}
+
+/*Colores iconos*/
+.icon{
+  color: #71e370;
+}
+
+/*FOOTER*/
+footer{
+  position:absolute;
+  bottom:5px;
+  right:10px;
+  color: white;
+}
